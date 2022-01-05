@@ -37,3 +37,31 @@ body{
   background-repeat: no-repeat;
   background-position:right;
 }
+.experiences{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+}
+.exp{
+  margin-left: 5%;
+}
+.experience-item{
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 10px;
+}
+#lutfour{
+  border-left: 7px solid;
+  border-image:linear-gradient(orange,cyan);
+  border-image-slice: 1;
+}
+#lutfour2{
+  border-left: 7px solid;
+  border-image:linear-gradient( purple,orange);
+  border-image-slice: 1;
+}
+footer{
+  text-align: center;
+}
